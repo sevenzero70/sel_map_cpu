@@ -1,0 +1,105 @@
+Collecting open3d
+  Downloading https://files.pythonhosted.org/packages/4b/67/48579c9c66560cd7431b5a59c69b13cc33d524a8e565074c8ed0dd009a26/open3d-0.11.2-cp36-cp36m-manylinux1_x86_64.whl (103.6MB)
+Collecting tqdm (from open3d)
+  Downloading https://files.pythonhosted.org/packages/47/bb/849011636c4da2e44f1253cd927cfb20ada4374d8b3a4e425416e84900cc/tqdm-4.64.1-py2.py3-none-any.whl (78kB)
+Collecting matplotlib (from open3d)
+  Downloading https://files.pythonhosted.org/packages/09/03/b7b30fa81cb687d1178e085d0f01111ceaea3bf81f9330c937fb6f6c8ca0/matplotlib-3.3.4-cp36-cp36m-manylinux1_x86_64.whl (11.5MB)
+Collecting numpy (from open3d)
+  Downloading https://files.pythonhosted.org/packages/45/b2/6c7545bb7a38754d63048c7696804a0d947328125d81bf12beaa692c3ae3/numpy-1.19.5-cp36-cp36m-manylinux1_x86_64.whl (13.4MB)
+Collecting notebook (from open3d)
+  Downloading https://files.pythonhosted.org/packages/27/b7/7e602dc8b868bba8a542269205237b400be3427d8489b5851de5f7587996/notebook-6.4.10-py3-none-any.whl (9.9MB)
+Collecting pandas (from open3d)
+  Downloading https://files.pythonhosted.org/packages/c3/e2/00cacecafbab071c787019f00ad84ca3185952f6bb9bca9550ed83870d4d/pandas-1.1.5-cp36-cp36m-manylinux1_x86_64.whl (9.5MB)
+Collecting widgetsnbextension (from open3d)
+  Downloading https://files.pythonhosted.org/packages/9a/3d/a8ed056afe4e677943fd490263a6e45fbee2f025db738a1b4d17f75bb1ae/widgetsnbextension-3.6.1-py2.py3-none-any.whl (1.6MB)
+Requirement already satisfied: pyyaml in /usr/lib/python3/dist-packages (from open3d)
+Collecting ipywidgets (from open3d)
+  Downloading https://files.pythonhosted.org/packages/d9/33/b318bd7cb2672a59466c3dcd24760f2221c163e851c9006b6c26af2c9152/ipywidgets-7.7.2-py2.py3-none-any.whl (123kB)
+Collecting sklearn (from open3d)
+  Downloading https://files.pythonhosted.org/packages/1e/7a/dbb3be0ce9bd5c8b7e3d87328e79063f8b263b2b1bfa4774cb1147bfcd3f/sklearn-0.0.tar.gz
+Collecting plyfile (from open3d)
+  Downloading https://files.pythonhosted.org/packages/d8/28/a4f08d62adb37c010cf58d04bcff37faa87212ed7acf446eeee9cf75624c/plyfile-0.7.4-py3-none-any.whl
+Collecting addict (from open3d)
+  Downloading https://files.pythonhosted.org/packages/6a/00/b08f23b7d7e1e14ce01419a467b583edbb93c6cdb8654e54a9cc579cd61f/addict-2.4.0-py3-none-any.whl
+Collecting importlib-resources; python_version < "3.7" (from tqdm->open3d)
+  Downloading https://files.pythonhosted.org/packages/24/1b/33e489669a94da3ef4562938cd306e8fa915e13939d7b8277cb5569cb405/importlib_resources-5.4.0-py3-none-any.whl
+Requirement already satisfied: python-dateutil>=2.1 in /usr/lib/python3/dist-packages (from matplotlib->open3d)
+Collecting cycler>=0.10 (from matplotlib->open3d)
+  Downloading https://files.pythonhosted.org/packages/5c/f9/695d6bedebd747e5eb0fe8fad57b72fdf25411273a39791cde838d5a8f51/cycler-0.11.0-py3-none-any.whl
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.3 in /usr/lib/python3/dist-packages (from matplotlib->open3d)
+Collecting kiwisolver>=1.0.1 (from matplotlib->open3d)
+  Downloading https://files.pythonhosted.org/packages/a7/1b/cbd8ae738719b5f41592a12057ef5442e2ed5f5cb5451f8fc7e9f8875a1a/kiwisolver-1.3.1-cp36-cp36m-manylinux1_x86_64.whl (1.1MB)
+Collecting pillow>=6.2.0 (from matplotlib->open3d)
+  Downloading https://files.pythonhosted.org/packages/7d/2a/2fc11b54e2742db06297f7fa7f420a0e3069fdcf0e4b57dfec33f0b08622/Pillow-8.4.0.tar.gz (49.4MB)
+Collecting jinja2 (from notebook->open3d)
+  Downloading https://files.pythonhosted.org/packages/20/9a/e5d9ec41927401e41aea8af6d16e78b5e612bca4699d417f646a9610a076/Jinja2-3.0.3-py3-none-any.whl (133kB)
+Collecting nest-asyncio>=1.5 (from notebook->open3d)
+  Downloading https://files.pythonhosted.org/packages/e9/1a/6dd9ec31cfdb34cef8fea0055b593ee779a6f63c8e8038ad90d71b7f53c0/nest_asyncio-1.5.6-py3-none-any.whl
+Collecting pyzmq>=17 (from notebook->open3d)
+  Downloading https://files.pythonhosted.org/packages/6c/33/d68be963793bced811ed51903eacb719ed40387d31bf2dd7abf409390107/pyzmq-24.0.1-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.1MB)
+Collecting argon2-cffi (from notebook->open3d)
+  Downloading https://files.pythonhosted.org/packages/a8/07/946d5a9431bae05a776a59746ec385fbb79b526738d25e4202d3e0bbf7f4/argon2_cffi-21.3.0-py3-none-any.whl
+Collecting ipython-genutils (from notebook->open3d)
+  Downloading https://files.pythonhosted.org/packages/fa/bc/9bd3b5c2b4774d5f33b2d544f1460be9df7df2fe42f352135381c347c69a/ipython_genutils-0.2.0-py2.py3-none-any.whl
+Collecting nbformat (from notebook->open3d)
+  Downloading https://files.pythonhosted.org/packages/e7/c7/dd50978c637a7af8234909277c4e7ec1b71310c13fb3135f3c8f5b6e045f/nbformat-5.1.3-py3-none-any.whl (178kB)
+Collecting jupyter-core>=4.6.1 (from notebook->open3d)
+  Downloading https://files.pythonhosted.org/packages/60/7d/bee50351fe3ff6979e949b9c4c00c556a7a9732ba39b547d07d93450de23/jupyter_core-4.9.2-py3-none-any.whl (86kB)
+Collecting terminado>=0.8.3 (from notebook->open3d)
+  Downloading https://files.pythonhosted.org/packages/02/6c/c3b012d026678d5cac6d4e26d6857145e22b94ccef195e7c483c3f6c3731/terminado-0.13.0-py3-none-any.whl
+Collecting jupyter-client>=5.3.4 (from notebook->open3d)
+  Downloading https://files.pythonhosted.org/packages/56/a7/f4d3790ce7bb925d3ffe299244501a264f23ee7ec401914f7d788881ea31/jupyter_client-7.1.2-py3-none-any.whl (130kB)
+Collecting nbconvert>=5 (from notebook->open3d)
+  Downloading https://files.pythonhosted.org/packages/13/2f/acbe7006548f3914456ee47f97a2033b1b2f3daf921b12ac94105d87c163/nbconvert-6.0.7-py3-none-any.whl (552kB)
+Collecting prometheus-client (from notebook->open3d)
+  Downloading https://files.pythonhosted.org/packages/2e/5e/4225463cdac1098aac718b1d8adf8f9dc3d6aaea55f4f85a2f7d572b4f7c/prometheus_client-0.15.0-py3-none-any.whl (60kB)
+Collecting tornado>=6.1 (from notebook->open3d)
+  Downloading https://files.pythonhosted.org/packages/01/d1/8750ad20cbcefb499bb8b405e243f83c2c89f78d139e6f8c8d800640f554/tornado-6.1-cp36-cp36m-manylinux1_x86_64.whl (427kB)
+Collecting traitlets>=4.2.1 (from notebook->open3d)
+  Downloading https://files.pythonhosted.org/packages/ca/ab/872a23e29cec3cf2594af7e857f18b687ad21039c1f9b922fac5b9b142d5/traitlets-4.3.3-py2.py3-none-any.whl (75kB)
+Collecting ipykernel (from notebook->open3d)
+  Downloading https://files.pythonhosted.org/packages/e9/ad/9101e0ab5e84dd117462bb3a1379d31728a849b6886458452e3d97dc6bba/ipykernel-5.5.6-py3-none-any.whl (121kB)
+Collecting Send2Trash>=1.8.0 (from notebook->open3d)
+  Downloading https://files.pythonhosted.org/packages/47/26/3435896d757335ea53dce5abf8d658ca80757a7a06258451b358f10232be/Send2Trash-1.8.0-py3-none-any.whl
+Requirement already satisfied: pytz>=2017.2 in /usr/lib/python3/dist-packages (from pandas->open3d)
+Collecting ipython>=4.0.0; python_version >= "3.3" (from ipywidgets->open3d)
+  Downloading https://files.pythonhosted.org/packages/53/09/958a4802489d28b2484114ee6414c7502ef57de6f2dbc9095b718640060c/ipython-7.16.3-py3-none-any.whl (783kB)
+Collecting jupyterlab-widgets<3,>=1.0.0; python_version >= "3.6" (from ipywidgets->open3d)
+  Downloading https://files.pythonhosted.org/packages/a5/bb/210ce9e56cad3b9e7a0468582a3f22b06bb209430d6481031f05fafafad6/jupyterlab_widgets-1.1.1-py3-none-any.whl (245kB)
+Collecting scikit-learn (from sklearn->open3d)
+  Downloading https://files.pythonhosted.org/packages/f5/ef/bcd79e8d59250d6e8478eb1290dc6e05be42b3be8a86e3954146adbc171a/scikit_learn-0.24.2-cp36-cp36m-manylinux1_x86_64.whl (20.0MB)
+Collecting zipp>=3.1.0; python_version < "3.10" (from importlib-resources; python_version < "3.7"->tqdm->open3d)
+  Downloading https://files.pythonhosted.org/packages/bd/df/d4a4974a3e3957fd1c1fa3082366d7fff6e428ddb55f074bf64876f8e8ad/zipp-3.6.0-py3-none-any.whl
+Collecting MarkupSafe>=2.0 (from jinja2->notebook->open3d)
+  Downloading https://files.pythonhosted.org/packages/fc/d6/57f9a97e56447a1e340f8574836d3b636e2c14de304943836bd645fa9c7e/MarkupSafe-2.0.1-cp36-cp36m-manylinux1_x86_64.whl
+Collecting typing-extensions; python_version < "3.8" (from argon2-cffi->notebook->open3d)
+  Downloading https://files.pythonhosted.org/packages/45/6b/44f7f8f1e110027cf88956b59f2fad776cca7e1704396d043f89effd3a0e/typing_extensions-4.1.1-py3-none-any.whl
+Collecting argon2-cffi-bindings (from argon2-cffi->notebook->open3d)
+  Downloading https://files.pythonhosted.org/packages/b9/e9/184b8ccce6683b0aa2fbb7ba5683ea4b9c5763f1356347f1312c32e3c66e/argon2-cffi-bindings-21.2.0.tar.gz (1.8MB)
+    Complete output from command python setup.py egg_info:
+    /usr/lib/python3.6/distutils/dist.py:261: UserWarning: Unknown distribution option: 'long_description_content_type'
+      warnings.warn(msg)
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-build-eptzy7k9/argon2-cffi-bindings/setup.py", line 111, in <module>
+        cffi_modules=CFFI_MODULES,
+      File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 129, in setup
+        return distutils.core.setup(**attrs)
+      File "/usr/lib/python3.6/distutils/core.py", line 108, in setup
+        _setup_distribution = dist = klass(attrs)
+      File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 372, in __init__
+        _Distribution.__init__(self, attrs)
+      File "/usr/lib/python3.6/distutils/dist.py", line 281, in __init__
+        self.finalize_options()
+      File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 528, in finalize_options
+        ep.load()(self, ep.name, value)
+      File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2324, in load
+        return self.resolve()
+      File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2330, in resolve
+        module = __import__(self.module_name, fromlist=['__name__'], level=0)
+      File "/tmp/pip-build-eptzy7k9/argon2-cffi-bindings/.eggs/setuptools_scm-7.0.5-py3.6.egg/setuptools_scm/__init__.py", line 5
+        from __future__ import annotations
+        ^
+    SyntaxError: future feature annotations is not defined
+    
+    ----------------------------------------

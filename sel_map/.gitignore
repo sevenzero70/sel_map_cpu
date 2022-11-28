@@ -1,0 +1,41 @@
+# ignore all ros bags
+*.bag
+
+# ignore data folder
+**/carla
+**/stanford
+**/output
+**/results
+
+**/carla-pose
+**/carla-image
+**/carla-depth
+**/carla-semseg
+**/carla-semseg-gt
+
+# network weights
+*.pth
+*.pth.1
+
+# images
+*.jpg
+*.jpeg
+*.gif
+*.csv
+*.png
+
+# Pycache folders
+__pycache__/
+
+# utils
+**/utils/makeGif.py
+**/utils/torosbag.py
+**/utils/carlaBagReader.py
+**/utils/pointCloudPublisher.py
+**/utils/generateSemanticVideo.py
+
+# New
+.vscode/
+
+# Do not ignore figures in the figure folder
+!figures/*
